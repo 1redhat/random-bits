@@ -1,0 +1,14 @@
+= Fast Serve
+This is a temporary why to expose a directory to the internet using a webserver.
+
+* Install python
+* Install http://ngrok.com/download[ngrok]. After downloading add binary to path 
+* Start a python webserver
+----
+cd <directory to expose>
+python -m SimpleHTTPServer 8000
+----
+* Expose the running webserver to the web
+----
+ngrok http 8000
+----

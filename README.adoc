@@ -1,0 +1,4 @@
+= Random Bits
+Random thinkings that you may find useful
+
+* link:fast-serve[fast-serve] - Expose a directory to the internet using a webserver.
